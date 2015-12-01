@@ -1,10 +1,12 @@
 {
-    "name": "madand/yii2-clockpicker",
+    "name": "faryshta/yii2-clockpicker",
     "description": "Yii2 wrapper for clockpicker (clock-like time picker) plugin",
     "keywords": [
         "yii",
         "yii2",
-        "clockpicker"
+        "clockpicker",
+        "jquery",
+        "timepicker"
     ],
     "type": "yii2-extension",
     "license": "BSD-3-Clause",
@@ -15,16 +17,21 @@
             "email": "dev@madand.net",
             "homepage": "https://github.com/MadAnd",
             "role": "Developer"
+        },
+        {
+            "name": "Angel (Faryshta) Guevara",
+            "email": "angeldelcaos@gmail.com",
+            "homepage": "https://github.com/Faryshta",
+            "role": "Developer"
         }
     ],
     "require": {
         "yiisoft/yii2": "~2.0.0",
-        "yiisoft/yii2-bootstrap": "*",
-        "bower-asset/clockpicker": "dev-master"
+        "bower-asset/clockpicker": "*"
     },
     "autoload": {
         "psr-4": {
-            "madand\\clockpicker\\": "src"
+            "faryshta\\": "src"
         }
     },
     "extra": {
@@ -32,11 +39,5 @@
             "npm-asset-library": "vendor/npm",
             "bower-asset-library": "vendor/bower"
         },
-        "asset-repositories": {
-            "bower-asset/clockpicker": {
-                "type": "bower-vcs",
-                "url": "https://github.com/MadAnd/clockpicker"
-            }
-        }
     }
 }
