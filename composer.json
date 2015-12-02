@@ -10,7 +10,7 @@
     ],
     "type": "yii2-extension",
     "license": "BSD-3-Clause",
-    "homepage": "https://github.com/MadAnd/yii2-clockpicker",
+    "homepage": "https://github.com/Faryshta/yii2-clockpicker",
     "authors": [
         {
             "name": "Andriy Kmit'",
@@ -31,7 +31,7 @@
     },
     "autoload": {
         "psr-4": {
-            "faryshta\\": "src"
+            "faryshta\\": ""
         }
     },
     "extra": {

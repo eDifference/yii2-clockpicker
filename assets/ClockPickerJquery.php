@@ -9,7 +9,7 @@ namespace faryshta\assets;
 
 use yii\web\AssetBundle;
 
-class ClockPickerBoostrap extends AssetBundle
+class ClockPickerJquery extends AssetBundle
 {
     /**
      * @inheritdoc
