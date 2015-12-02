@@ -9,7 +9,7 @@ namespace faryshta\assets;
 
 use yii\web\AssetBundle;
 
-class ClockPickerJquery extends AssetBundle
+class BootstrapClockPicker extends AssetBundle
 {
     /**
      * @inheritdoc
@@ -19,15 +19,15 @@ class ClockPickerJquery extends AssetBundle
     /**
      * @inheritdoc
      */
-    public $css = ['jquery-clockpicker.css'];
+    public $css = ['bootstrap-clockpicker.css'];
 
     /**
      * @inheritdoc
      */
-    public $js = ['jquery-clockpicker.js'];
+    public $js = ['bootstrap-clockpicker.js'];
 
     /**
      * @inheritdoc
      */
-    public $depends = ['yii\web\JqueryAsset'];
+    public $depends = ['yii\bootstrap\BootstrapPluginAsset'];
 }

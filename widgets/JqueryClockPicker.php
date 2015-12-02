@@ -2,12 +2,12 @@
 
 namespace faryshta\widgets;
 
-use faryshta\assets\ClockPickerJquery as JqueryAsset;
+use faryshta\assets\JqueryClockPicker as JqueryAsset;
 
 /**
  * @inheritdoc
  */
-class JqueryClockPicker extends ClockPicker
+class JqueryClockPicker extends BaseClockPicker
 {
     /**
      * @inheritdoc

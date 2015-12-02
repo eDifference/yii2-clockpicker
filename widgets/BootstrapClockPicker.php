@@ -2,12 +2,12 @@
 
 namespace faryshta\widgets;
 
-use faryshta\assets\ClockPickerBootstrap as BootstrapAsset;
+use faryshta\assets\BootstrapClockPicker as BootstrapAsset;
 
 /**
  * @inheritdoc
  */
-class BootstrapClockPicker extends ClockPicker
+class BootstrapClockPicker extends BaseClockPicker
 {
     /**
      * @inheritdoc
