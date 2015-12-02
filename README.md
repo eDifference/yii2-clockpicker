@@ -84,11 +84,12 @@ echo BootstrapClockPicker::widget([
 
 ## Documentation
 
-This library doesn't define anything new, the widgets behavior is very similar to [\\yii\\bootstrap\\Widget](http://www.yiiframework.com/doc-2.0/yii-bootstrap-widget.html) which can be used as documentation for the widget classes.
+This library doesn't define anything new, the widgets classes are very similar
+to the class [\\yii\\bootstrap\\Widget](http://www.yiiframework.com/doc-2.0/yii-bootstrap-widget.html) which can be used as documentation for the widget classes.
 
 The JS options can be passed using the `$clientOptions` property and the events
-can be declared using the `$clientEvents` property. (The documentation on all the
-options and events supported by clockpicker can be found here.)[http://weareoutman.github.io/clockpicker/]
+can be declared using the `$clientEvents` property. [The documentation on all the
+options and events supported by clockpicker can be found here.](http://weareoutman.github.io/clockpicker/)
 
 ## License
 
