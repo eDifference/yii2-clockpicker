@@ -1,6 +1,10 @@
-# clockpicker asset for Yii2
-Yii2 wrapper for [clockpicker](https://github.com/weareoutman/clockpicker) (clock-like time picker) plugin.
+Faryshta Yii2 ClockPicker
+=========================
 
+[![Latest Stable Version](https://poser.pugx.org/faryshta/yii2-clockpicker/v/stable)](https://packagist.org/packages/faryshta/yii2-clockpicker) [![Total Downloads](https://poser.pugx.org/faryshta/yii2-clockpicker/downloads)](https://packagist.org/packages/faryshta/yii2-clockpicker) [![Latest Unstable Version](https://poser.pugx.org/faryshta/yii2-clockpicker/v/unstable)](https://packagist.org/packages/faryshta/yii2-clockpicker) [![License](https://poser.pugx.org/faryshta/yii2-clockpicker/license)](https://packagist.org/packages/faryshta/yii2-clockpicker)
+
+Bootstrap and Jquery Yii2 widgets for [clockpicker](https://github.com/weareoutman/clockpicker)
+(clock-like time picker) jquery plugin
 
 ## Installation
 
