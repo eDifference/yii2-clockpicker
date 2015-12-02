@@ -12,7 +12,7 @@ use yii\widgets\InputWidget;
  * @package madand\clockpicker
  * @author Andriy Kmit' <dev@madand.net>
  */
-abstract class ClockPicker extends InputWidget
+abstract class BaseClockPicker extends InputWidget
 {
     /**
      * @var array the HTML attributes for the widget container tag.

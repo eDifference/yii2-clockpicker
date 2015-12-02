@@ -7,7 +7,7 @@ use faryshta\assets\ClockPickerBootstrap as BootstrapAsset;
 /**
  * @inheritdoc
  */
-class ClockPickerBootstrap extends ClockPicker
+class BootstrapClockPicker extends ClockPicker
 {
     /**
      * @inheritdoc

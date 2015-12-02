@@ -7,7 +7,7 @@ use faryshta\assets\ClockPickerJquery as JqueryAsset;
 /**
  * @inheritdoc
  */
-class ClockPickerJquery extends ClockPicker
+class JqueryClockPicker extends ClockPicker
 {
     /**
      * @inheritdoc
