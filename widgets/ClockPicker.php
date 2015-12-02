@@ -41,8 +41,8 @@ abstract class ClockPicker extends InputWidget
     {
         parent::init();
 
-        if (!isset($this->pluginOptions['donetext'])) {
-            $this->pluginOptions['donetext'] = 'Done';
+        if (empty($this->clientOptions['donetext'])) {
+            $this->clientOptions['donetext'] = 'Done';
         }
 
         Html::addCssClass($this->options, 'form-control');
@@ -74,12 +74,10 @@ abstract class ClockPicker extends InputWidget
     {
         $this->registerAssets();
 
-        $pluginOptions = empty($this->clientOptions)
-            ? ''
-            : Json::htmlEncode($this->clientOptions);
+        $clientOptions = Json::htmlEncode($this->clientOptions);
 
         $this->view->registerJs(
-            "jQuery('#{$this->options['id']}').clockpicker({$pluginOptions});"
+            "jQuery('#{$this->options['id']}').clockpicker({$clientOptions});"
         );
         $this->registerClientEvents();
     }

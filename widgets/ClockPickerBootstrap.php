@@ -12,7 +12,7 @@ class ClockPickerBootstrap extends ClockPicker
     /**
      * @inheritdoc
      */
-    public function registerAssets()
+    protected function registerAssets()
     {
         BootstrapAsset::register($this->getView());
     }

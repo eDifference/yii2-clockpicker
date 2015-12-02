@@ -12,7 +12,7 @@ class ClockPickerJquery extends ClockPicker
     /**
      * @inheritdoc
      */
-    public function registerAssets()
+    protected function registerAssets()
     {
         JqueryAsset::register($this->getView());
     }
