@@ -14,7 +14,7 @@ class ClockPickerTest extends TestCase
 <input type="text" id="bs" class="form-control" name="hour" value="13:00">
 HTML;
 
-				$this->assertEquals($expected, BootstrapClockPicker::widget([
+		$this->assertEquals($expected, BootstrapClockPicker::widget([
             'id' => 'bs',
             'name' => 'hour',
             'value' => '13:00'
@@ -26,7 +26,7 @@ HTML;
 <input type="text" id="jq" class="form-control" name="hour" value="13:00">
 HTML;
 
-				$this->assertEquals($expected, JqueryClockPicker::widget([
+		$this->assertEquals($expected, JqueryClockPicker::widget([
             'id' => 'jq',
             'name' => 'hour',
             'value' => '13:00'
